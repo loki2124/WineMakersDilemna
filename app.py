@@ -3,6 +3,9 @@ import streamlit as st
 
 st.header("========== WineMakers Dilemna ==========")
 st.caption("Created By: Lokeshwar Jha")
+st.caption("Model Specificity: 0.86")
+st.caption("Model Sensitivity: 0.17")
+st.caption("Probability of Storm: 0.5")
 
 def estimate_value(prob_storm, sensitivity, specificity, p_harvest, p_no_harvest_storm, p_no_harvest_no_storm):
     
